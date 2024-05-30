@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: linear-gradient(rgba(5, 8, 8, 0.829), rgb(26, 202, 35), blue);
+    width: 100%;
+
+a{
+    text-decoration: none;
+}
+
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+img{
+    width: 250px;
+}
+h1{
+    font-size: 34px;
+    color: rgb(148, 240, 125);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+P{
+    font-size: 14px;
+    color: rgb(160, 160, 170);
+}
+
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentacion h1{
+    font-size: 35px;
+    color: rgb(124, 206, 69);
+}
+
+.presentacion p{
+    width: 70%;
+    font-size: 30px;
+    padding: 10px;
+    font-family: "Caveat", cursive;
+    color: black;
+}
+
+#Recursos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+#Recursos iframe{
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-image: linear-gradient(rgba(11, 187, 231, 0.829), rgb(22, 36, 66), blue);
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img{
+    border-bottom-style: 50%;
+}
+
+.contenedor1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-image: linear-gradient(rgba(0, 204, 255, 0.829), rgb(14, 21, 36), blue);
+}
+
+.cajas{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajas img{
+    border-bottom-style: 50%;
+}
